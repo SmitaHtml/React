@@ -1,0 +1,118 @@
+#three-day-containera {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+    /* background-color: rgba(255, 255, 255, .7);*/
+    background-color: white;
+
+     padding: 10px;
+     box-shadow: 0px 0px 50px rgba(0, 0, 0, .1);
+     width: 790px;
+     height: 150px;
+     position: absolute;
+     bottom: 55px;
+     left: 55px;
+     /* margin: 0 auto; */
+}
+
+div#day-containera {
+     width: 250px;
+     height: 140px;
+     border-right: none;
+}
+
+h1#day-of-weeka {
+     margin: 0;
+     font-family: 'Work Sans';
+     font-weight: 700;
+     font-size: 34px;
+     text-transform: capitalize;
+     margin-right: 13px;
+
+}
+
+h2#hl-tempa {
+     margin: 0;
+     font-family: 'Work Sans';
+     font-weight: 300;
+     font-size: 18px;
+
+}
+
+h2#hl-desca {
+
+     margin: 0;
+     font-family: 'Work Sans';
+     font-weight: 400;
+     font-size: 20px;
+     text-transform: capitalize;
+     position: relative;
+     top: 20px;
+     padding-right: 15px;
+}
+
+@media only screen and (max-width: 1010px) {
+
+     #three-day-containera {
+          width: 75%;
+     }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+     #three-day-containera {
+          flex-flow: row;
+          justify-content: left;
+          width: 70%;
+     }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+     #three-day-containera {
+          flex-flow: column;
+          overflow-y: scroll;
+          width: 65%;
+          height: 250px;
+
+     }
+
+     div#day-containera {
+          width: 95%;
+          padding-left: 5px;
+          margin: 5px;
+          min-height: 150px;
+          border-right: none;
+          border-bottom: 1px solid black;
+          flex-flow: column;
+
+     }
+
+
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+     #three-day-containera {
+          width: 66%;
+          min-height: 0;
+          height: auto;
+          bottom: auto;
+          top: 320px;
+          bottom: 75px;
+     }
+
+}
+
+@media only screen and (max-width: 325px) {
+
+     #three-day-containera {
+          width: 65%;
+          margin-left: -10px;
+     }
+
+}
